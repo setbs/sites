@@ -1,0 +1,53 @@
+body {
+    background: #3b3b3b;
+}
+header {
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    font-size: large;
+    margin: 20px;
+}
+
+.grid {
+    display:grid;
+    justify-content: center;
+    width: 20%;
+    height: 75%;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+.block {
+    padding: 20px;
+    content: "";
+    display: block;
+    background: white;
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin: 15px;
+    transition: all .2s linear;
+    
+}
+.yellow { 
+    background: yellow;
+}
+.green { 
+    background: green;
+
+}
+.black { 
+    background: black;
+    color: white
+}
+.purpure {
+    background: purple;
+}
+.block:hover {
+    background: grey;
+}
